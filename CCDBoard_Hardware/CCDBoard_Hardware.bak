@@ -110,12 +110,12 @@ F 3 "" H 5800 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_04 Conn1
+L MRDT_Connectors:Molex_SL_05 Conn1
 U 1 1 5C83E20B
 P 6050 2600
 F 0 "Conn1" H 6050 2550 60  0000 L CNN
-F 1 "Molex_SL_04" H 6177 2752 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 6050 2500 60  0001 C CNN
+F 1 "Molex_SL_05" H 6177 2752 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 6050 2500 60  0001 C CNN
 F 3 "" H 6050 2500 60  0001 C CNN
 	1    6050 2600
 	1    0    0    -1  
@@ -179,4 +179,19 @@ Text Notes 6700 3200 2    50   ~ 0
 Clocking TIVA
 Text Notes 6650 2300 2    50   ~ 0
 Reading TIVA
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C84E599
+P 5800 2100
+F 0 "#PWR?" H 5800 1950 50  0001 C CNN
+F 1 "+3V3" H 5815 2273 50  0000 C CNN
+F 2 "" H 5800 2100 50  0001 C CNN
+F 3 "" H 5800 2100 50  0001 C CNN
+	1    5800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2150 5800 2150
+Wire Wire Line
+	5800 2150 5800 2100
 $EndSCHEMATC
