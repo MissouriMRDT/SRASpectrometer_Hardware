@@ -1366,7 +1366,7 @@
       (xy -6.395956 -0.780515) (xy -6.39578 -0.780671) (xy -6.278558 -0.884008) (xy -6.152213 -0.877709)) (layer F.SilkS) (width 0.01))
   )
 
-  (gr_text "CCD Clocking Board, Rev1\nmars Rover Design team\nMissouri S&T, 2019\nAndrew Van Horn" (at 1.778 27.178) (layer F.SilkS)
+  (gr_text "CCD Clocking Board, Rev1\nMars Rover Design Team\nMissouri S&T, 2019\nAndrew Van Horn" (at 1.778 27.178) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text +3V3 (at 92.202 22.86) (layer F.SilkS)
@@ -1439,7 +1439,7 @@
   (segment (start 118.11 3.81) (end 116.84 2.54) (width 0.381) (layer F.Cu) (net 8))
   (segment (start 116.84 2.54) (end 99.568 2.54) (width 0.381) (layer F.Cu) (net 8))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C8D14D5) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5C8D1733) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1604,7 +1604,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C8D14D2) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C8D1730) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
