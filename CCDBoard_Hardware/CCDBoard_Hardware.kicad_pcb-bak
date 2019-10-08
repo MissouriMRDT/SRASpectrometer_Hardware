@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 0)
-    (tracks 0)
+    (tracks 8)
     (zones 0)
     (modules 25)
     (nets 16)
@@ -134,7 +134,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5D9ABDB2)
-    (at 131.309 22.098)
+    (at 131.055 16.256)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D999E0A)
@@ -170,7 +170,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5D9ABDC3)
-    (at 131.318 26.416)
+    (at 131.064 20.574)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5D996BF8)
@@ -494,12 +494,12 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_04_Vertical (layer F.Cu) (tedit 5C675A88) (tstamp 5D9ABE5B)
-    (at 114.935 57.785 90)
+    (at 114.554 35.052)
     (path /5DA4FD22)
-    (fp_text reference Conn1 (at -4.445 3.302 90) (layer F.SilkS) hide
+    (fp_text reference Conn1 (at -4.445 3.302) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Molex_SL_04 IN" (at -0.254 3.302 90) (layer F.Fab)
+    (fp_text value "Molex_SL_04 IN" (at -0.254 3.302) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -6.35 2.54) (end -6.35 -2.54) (layer F.SilkS) (width 0.15))
@@ -509,15 +509,15 @@
     (fp_line (start -6.35 -4.064) (end -6.35 -2.54) (layer F.SilkS) (width 0.15))
     (fp_line (start 6.35 -2.54) (end 6.35 -4.064) (layer F.SilkS) (width 0.15))
     (fp_line (start 6.35 -4.064) (end -6.35 -4.064) (layer F.SilkS) (width 0.15))
-    (pad 4 thru_hole circle (at 3.81 0 90) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 4 thru_hole circle (at 3.81 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 1 GND))
-    (pad 4 thru_hole circle (at 3.81 0 90) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 4 thru_hole circle (at 3.81 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 1 GND))
-    (pad 3 thru_hole circle (at 1.27 0 90) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 3 thru_hole circle (at 1.27 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 5 CLK))
-    (pad 2 thru_hole circle (at -1.27 0 90) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at -1.27 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 6 ST))
-    (pad 1 thru_hole circle (at -3.81 0 90) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -3.81 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 2 +5V))
     (model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Molex_SL_04_Vertical.stp"
       (offset (xyz -6.349999904632568 -2.539999961853027 13.33499979972839))
@@ -527,7 +527,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_04_Vertical (layer F.Cu) (tedit 5C675A88) (tstamp 5D9ABE6B)
-    (at 167.132 22.606)
+    (at 127.508 35.052)
     (path /5DA5117C)
     (fp_text reference Conn2 (at -4.445 3.302) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -704,7 +704,7 @@
   )
 
   (module TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5D9ABEB7)
-    (at 171.577 29.21)
+    (at 123.698 53.34)
     (descr "THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm ")
     (tags "test point THT pad")
     (path /5D9F6926)
@@ -725,7 +725,7 @@
   )
 
   (module TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5D9ABEBF)
-    (at 137.16 29.845)
+    (at 123.698 41.656)
     (descr "THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm ")
     (tags "test point THT pad")
     (path /5DA42EDF)
@@ -746,7 +746,7 @@
   )
 
   (module TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5D9ABEC7)
-    (at 140.97 29.845)
+    (at 123.698 47.498)
     (descr "THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm ")
     (tags "test point THT pad")
     (path /5DA4347D)
@@ -788,7 +788,7 @@
   )
 
   (module TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5D9ABED7)
-    (at 133.35 48.895)
+    (at 113.284 47.498)
     (descr "THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm ")
     (tags "test point THT pad")
     (path /5DA71709)
@@ -809,7 +809,7 @@
   )
 
   (module TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5D9ABEDF)
-    (at 137.16 48.895)
+    (at 113.284 41.656)
     (descr "THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm ")
     (tags "test point THT pad")
     (path /5DA75ADC)
@@ -912,7 +912,7 @@
   )
 
   (module Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm (layer F.Cu) (tedit 5C97300E) (tstamp 5D9ABF3F)
-    (at 139.065 39.37 90)
+    (at 116.332 62.738 90)
     (descr "SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (path /5D9957BC)
@@ -970,5 +970,14 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (segment (start 128.778 48.26) (end 128.778 35.052) (width 0.25) (layer F.Cu) (net 4))
+  (segment (start 123.698 53.34) (end 128.778 48.26) (width 0.25) (layer F.Cu) (net 4))
+  (segment (start 115.824 44.958) (end 115.824 35.052) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 113.284 47.498) (end 115.824 44.958) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 113.284 41.656) (end 113.284 35.052) (width 0.25) (layer F.Cu) (net 6))
+  (segment (start 123.698 41.656) (end 123.698 35.052) (width 0.25) (layer F.Cu) (net 7))
+  (segment (start 126.238 44.958) (end 126.238 35.052) (width 0.25) (layer F.Cu) (net 8))
+  (segment (start 123.698 47.498) (end 126.238 44.958) (width 0.25) (layer F.Cu) (net 8))
 
 )
