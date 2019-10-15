@@ -1,4 +1,4 @@
-update=10/14/2019 6:21:04 PM
+update=10/6/2019 5:16:10 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=CCDBoard_Hardwaretest.net
+LastNetListRead=CCDBoard_Hardware.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
