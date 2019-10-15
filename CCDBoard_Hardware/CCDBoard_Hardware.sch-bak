@@ -675,9 +675,9 @@ Wire Wire Line
 	6850 3200 6950 3200
 Wire Wire Line
 	6850 3300 6950 3300
-Text GLabel 6950 3100 2    50   Output ~ 0
-ST
 Text GLabel 6950 3200 2    50   Output ~ 0
+ST
+Text GLabel 6950 3100 2    50   Output ~ 0
 CLK
 $Comp
 L power:GND #PWR0120
@@ -698,11 +698,11 @@ Wire Wire Line
 	6650 3850 6550 3850
 Wire Wire Line
 	6550 3950 6650 3950
-Text GLabel 6550 3650 0    50   Input ~ 0
+Text GLabel 6550 3850 0    50   Input ~ 0
 Trig
 Text GLabel 6550 3750 0    50   Input ~ 0
 EOS
-Text GLabel 6550 3850 0    50   Input ~ 0
+Text GLabel 6550 3650 0    50   Input ~ 0
 Video
 $Comp
 L power:GND #PWR0121
