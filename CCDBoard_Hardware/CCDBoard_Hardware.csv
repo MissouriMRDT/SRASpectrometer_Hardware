@@ -1,0 +1,22 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref,
+1,G***,masonsig,1,LOGO,,
+2,G***,sigsymsmoler,1,LOGO,,
+3,"REF**,REF**,REF**",4_40_Hole,3,4_40_Hole,,
+4,CLK TP,TestPoint_THTPad_D2.5mm_Drill1.2mm,1,CLKTestPoint,,
+5,"C3,C2,C6,C9",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,0.1 µF,,
+6,Trig TP,TestPoint_THTPad_D2.5mm_Drill1.2mm,1,TrigTestPoint,,
+7,U1,CCD-S11639-01,1,S11639-01,,
+8,"C1,C4,C10,C7",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4,22 µF/25 V,,https://www.newark.com/samsung-electro-mechanics/cl21a226maqnnne/cap-22uf-25v-mlcc-0805/dp/82AC9399
+9,C5,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,1 µF,,
+10,C8,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,22 pF,,
+11,Conn1,MOLEX_SL_04_Vertical,1,Molex_SL_04 IN,,
+12,Conn2,MOLEX_SL_04_Vertical,1,Molex_SL_04 OUT,,
+13,"R1,R2",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,82 Ω,,https://www.newark.com/panasonic/erj-3geyj820v/res-thick-film-82r-5-0-1w-0603/dp/65T8691
+14,R3,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,100 Ω,,
+15,R4,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,51 Ω,,
+16,Vid TP,TestPoint_THTPad_D2.5mm_Drill1.2mm,1,VideoTestPoint,,
+17,EOS TP,TestPoint_THTPad_D2.5mm_Drill1.2mm,1,EOSTestPoint,,
+18,PA Vid TP,TestPoint_THTPad_D2.5mm_Drill1.2mm,1,VideoPreAmpTestPoint,,
+19,ST TP,TestPoint_THTPad_D2.5mm_Drill1.2mm,1,STTestPoint,,
+20,U2,SOT-23-5_HandSoldering,1,LT1818,,https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT1818IS8-PBF/LT1818IS8-PBF-ND/961432
+21,U3,SOIC-20W_7.5x12.8mm_P1.27mm,1,74HC541,,https://www.newark.com/nexperia/74hc541d/octal-buffer-driver-3state-soic20/dp/26M7769?st=74hc541
