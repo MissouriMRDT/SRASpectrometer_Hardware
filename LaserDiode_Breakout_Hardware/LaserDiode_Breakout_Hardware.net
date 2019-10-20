@@ -1,0 +1,61 @@
+(export (version D)
+  (design
+    (source C:\Users\Brian\Documents\GitHub\SRASpectrometer_Hardware\LaserDiode_Breakout_Hardware\LaserDiode_Breakout_Hardware.sch)
+    (date "10/20/2019 5:23:02 PM")
+    (tool "Eeschema (5.1.2)-2")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source LaserDiode_Breakout_Hardware.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref Conn1)
+      (value Molex_SL_02)
+      (footprint MRDT_Connectors:MOLEX_SL_02_Vertical)
+      (libsource (lib MRDT_Connectors) (part Molex_SL_02) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5DAFA94C))
+    (comp (ref LD1)
+      (value Laserdiode_1A3C)
+      (footprint MRDT_Devices:L638P700M_Laser_Diode)
+      (datasheet ~)
+      (libsource (lib Device) (part Laserdiode_1A3C) (description "Laser diode, cathode on pin 3, anode on pin 1"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5DAFB817)))
+  (libparts
+    (libpart (lib Device) (part Laserdiode_1A3C)
+      (description "Laser diode, cathode on pin 3, anode on pin 1")
+      (docs ~)
+      (footprints
+        (fp *LaserDiode*))
+      (fields
+        (field (name Reference) LD)
+        (field (name Value) Laserdiode_1A3C))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 3) (name K) (type passive))))
+    (libpart (lib MRDT_Connectors) (part Molex_SL_02)
+      (fields
+        (field (name Reference) Conn)
+        (field (name Value) Molex_SL_02))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input)))))
+  (libraries
+    (library (logical Device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
+    (library (logical MRDT_Connectors)
+      (uri C:\Users\Brian\Downloads\MRDT_KiCAD_Libraries-2019-R2/Symbols/MRDT_Connectors.lib)))
+  (nets
+    (net (code 1) (name "Net-(Conn1-Pad1)")
+      (node (ref Conn1) (pin 1))
+      (node (ref LD1) (pin 3)))
+    (net (code 2) (name "Net-(Conn1-Pad2)")
+      (node (ref Conn1) (pin 2))
+      (node (ref LD1) (pin 1)))))
