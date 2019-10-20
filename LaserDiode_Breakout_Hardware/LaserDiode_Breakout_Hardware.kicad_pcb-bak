@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 7)
+    (drawings 8)
     (tracks 16)
     (zones 0)
     (modules 8)
@@ -57,8 +57,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 2.999999 5)
-    (pad_drill 0)
+    (pad_size 1.016 1.016)
+    (pad_drill 0.762)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -1046,7 +1046,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.9464 2.9464) (drill 2.9464) (layers *.Cu *.Mask))
   )
 
-  (module MRDT_Devices:L638P700M_Laser_Diode (layer B.Cu) (tedit 5DACDC6E) (tstamp 5DAD32B5)
+  (module MRDT_Devices:L638P700M_Laser_Diode (layer B.Cu) (tedit 5DACE5B6) (tstamp 5DAD32B5)
     (at -726.44 -118.11 180)
     (path /5DAFB817)
     (fp_text reference LD1 (at 1.27 -3.81) (layer B.SilkS)
@@ -1060,7 +1060,7 @@
       (net 2 "Net-(Conn1-Pad2)"))
     (pad 3 thru_hole circle (at 2.54 0 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 1 "Net-(Conn1-Pad1)"))
-    (pad 2 thru_hole circle (at 1.27 -1.27 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 1.27 -1.27 180) (size 1.016 1.016) (drill 0.762) (layers *.Cu *.Mask))
   )
 
   (module MRDT_Connectors:MOLEX_SL_02_Vertical (layer F.Cu) (tedit 5C675A2B) (tstamp 5DAD3310)
@@ -1090,6 +1090,9 @@
     )
   )
 
+  (gr_text "Laser Diode Breakout Board\n" (at -727.71 -120.65) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
   (gr_line (start -727.71 -101.6) (end -708.66 -101.6) (layer Edge.Cuts) (width 0.05))
   (gr_line (start -746.76 -101.6) (end -746.76 -121.92) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD3BEE))
   (gr_line (start -708.66 -121.92) (end -708.66 -101.6) (layer Edge.Cuts) (width 0.05) (tstamp 5DAD3BED))
