@@ -1,13 +1,14 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.2)-2*
-G04 #@! TF.CreationDate,2019-10-20T18:32:25-05:00*
-G04 #@! TF.ProjectId,LaserDiode_Breakout_Hardware,4c617365-7244-4696-9f64-655f42726561,rev?*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0)*
+G04 #@! TF.CreationDate,2019-10-20T18:36:36-05:00*
+G04 #@! TF.ProjectId,LaserDiode_Breakout_Hardware,4C6173657244696F64655F427265616B,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.2)-2) date 2019-10-20 18:32:25*
+G04 Created by KiCad (PCBNEW (5.0.0)) date 10/20/19 18:36:36*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
 %ADD10C,0.050000*%
 G04 APERTURE END LIST*
